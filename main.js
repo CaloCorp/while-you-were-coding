@@ -20,24 +20,38 @@
 // Even though we'll USUALLY be calling this function with a number indicating the challenge we're on, THIS TIME call it with the parameter 'Banner Function Works!'. You should see the below result:
 //
 // ###### Challenge Banner Function Works! #####
+function banner (num) {console.log ('###'+ ' Challenge' + num + '###' )}
 
+banner ('Banner Function Works!')
 
 // 2.
 //
 // Console out the numbers from 1-20, but only if they're divisible by 3.
 
 // Use `if` and a modulus operation.
+for(let num=1;num<=20;num ++){
 
+if (num % 3 ===0) {console.log(num)}
+}
 
 // 3.
 //
 // Same problem as #2, but no `if`s, `mods`, or `but`s (and no, `but` is not a JavaScript tool). There may be more ways to solve this problem without `if` or `%` (there usually are in JavaScript!), but if you did it the way we did, you should run the loop 6 times with console log per loop iteration.
+banner(' Banner of the Bruce type ')
+let num=0
+
+while (num<=20) {console.log(num)
+num = num + 3 
+}
 
 
 
 // 4.
 //
 // Console out the numbers from 1-20. BACKWARDS.
+banner (' Bruce Banner to an arm wrestling competition ')
+
+for (let num=20;num>=1;num --) {console.log (num)}
 
 
 // 5.
@@ -45,17 +59,38 @@
 // For the string 'Boy howdy am I good at this!', console out the letters
 // individually.
 
+banner(' Bruce Banner to a jumping contest')
+str= 'Boy howdy am I good at this'
+
+for(let i=0;i<str.length;i++)
+{console.log(str[i])}
+
+
 
 // 6.
 //
 // For the string, 'And getting better every day.', starting with the second
 // character, print out every third character.
+banner(' Bruce Banner to a boxing contest')
+str2= 'And getting better every day'
 
+for(let i=2;i<str2.length;i=i+3){
+console.log(str2[i])
+}
 
 // 7. 
 //
 // For the string 'Am I the best?', console out the letters individually, AND
 // UPPERCASED.
+banner (' Bruce Banner to a wrestling contest')
+
+str3='Am I the best?'
+
+for(let i=0;i<str3.length;i=i+1 ){
+console.log(str3[i].toUpperCase())
+}
+
+
 
 
 // 8.
