@@ -117,11 +117,27 @@ for (i=0; i<str8.length; i++  ) {
 // For the string 'I am become death, destroyer of worlds.', console out the letters
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
+banner('Bruce Banner to a Gamma Radiation contest')
 
+str9= 'I am become death, destroyer of worlds.'
 
+for (i=str9.length;i>=0; i--){
+console.log (str9[i])
+}
 // 10.
 //
 const names = 'Colin|Mesuara|Denis|Wilson|Michael|Patrick|DeAundre|Jumary|Marc|Bogdan|Sharod|David|LaToddra|Carlos';
+banner('Bruce Banner to all you can smash contest')
+
+for (i=0;i<names.length; i++){
+
+    if(names[i]==='|') {
+        console.log('Here today is');
+
+    }
+    else {console.log(names[i]);}
+    }
+
 
 // Console out the individual letters of each person in class today, which are
 // in the string above. Every time you start a new name (including the first
