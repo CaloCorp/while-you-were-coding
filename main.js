@@ -121,7 +121,7 @@ banner('Bruce Banner to a Gamma Radiation contest')
 
 str9= 'I am become death, destroyer of worlds.'
 
-for (i=str9.length;i>=0; i--){
+for (let i=str9.length - 1;i>=0; i--){
 console.log (str9[i])
 }
 // 10.
